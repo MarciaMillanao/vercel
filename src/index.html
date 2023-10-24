@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Analizador de texto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Analizador de texto</h1>
+  </header>
+  <main>
+    <section>
+      <textarea name="user-input" cols="30" rows="10"></textarea>
+    </section>
+    <section>
+      <ul>
+        <li class="result" data-testid="word-count">
+          Cantidad de palabras: 0
+        </li>
+        <li class="result" data-testid="character-count">
+          Cantidad de Caracteres: 0
+        </li>
+        <li class="result" data-testid="character-no-spaces-count">
+          Caracteres sin espacios: 0
+        </li>
+        <li class="result" data-testid="number-count">
+          Cantidad de números: 0
+        </li>
+        <li class="result" data-testid="number-sum">
+          Suma de números: 0
+        </li>
+        <li class="result" data-testid="word-length-average">
+          Promedio Largo Palabras: 0
+        </li>
+      </ul>
+      <button id="reset-button">Reset</button>
+    </section>
+  </main>
+  <footer>
+    <p>Marcia Millanao</p>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+</html>
